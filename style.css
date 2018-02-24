@@ -1,0 +1,62 @@
+
+body {background: url("images/disco80 2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #F9D350;
+}
+
+.page-header {
+    padding: 0px;
+    margin: 0px;
+    border: none;    
+}
+.press{
+    display: inline-flex
+}
+#Start {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 20px;
+     float: left;
+}
+#logo {
+    float: left;
+    margin-left: 400px;
+    height: 100px;
+    }
+#Rules {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-right: 20px;
+    float:right;
+}
+
+h1 {display: inline-block;
+    text-align: center;
+}
+.container-fluid {
+    display: block;
+}
+
+.vals {
+    text-align: center;
+    font-size: 80px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width:  75px;
+    border-radius: 45%;
+    
+}    
+#robin {
+    width: 100px;
+}
+#andy {
+    width: 100px;
+}
