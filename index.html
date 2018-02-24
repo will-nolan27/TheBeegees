@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="game.js"></script>
-    <title>Document</title>
+    <title>The Game</title>
 </head>
 
 <body>
@@ -28,15 +29,30 @@
 
     <div class="container-fluid">
         <div class="row">
+           <div class="col-md-12">
+              <p id="toggle" class="hid">
+                   Click Start New Game to Play<br>
+               You are trying to impress the Beegees with your dancing<br>
+               Be careful, the Beegees only have so many moves to work with<br>
+               Click on any of the Brothers Gibb to work your moves<br>
+               Your moves will be displayed as your score<br>
+               When you match but not surpass the Brother's moves they'll be impressed and you'll get a win<br>
+               Out move the Beegee's and you're a jerk. You'll also nab yourself a lose<br>
+               Press Start New Game at anytime to reset your wins and losses.
+            </p>
+           </div>
+        </div>
+        <div class="row">
             <div class="col-md-4">
                 <h2 class="vals">Score</h2>
             </div>
-            <div class="col-md-4">
+             <div class="col-md-4">
                 <img id="barry" class="center-block" src="images/MV5BMjExNjQ4OTYzNF5BMl5BanB.jpg">
             </div>
             <div class="col-md-4">
                 <h2 class="vals">Moves</h2>
             </div>
+           
             <div class="row">
                 <div class="col-md-4">
                     <h2 id="points" class="vals">0</h2>
